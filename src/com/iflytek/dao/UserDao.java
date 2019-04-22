@@ -34,7 +34,7 @@ public class UserDao {
 	public static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 	public static final String JDBC_USERNAME = "root";
 	public static final String JDBC_PASSWORD = "123456";
-	public static final String JDBC_URL = "jdbc:mysql://localhost:3306/kdxfjysbbxpt?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false";
+	public static final String JDBC_URL = "jdbc:mysql://10.2.155.62:3306/jdbcStudy?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false";
 	
 	private static Connection conn = null;
 	static {
@@ -63,6 +63,7 @@ public class UserDao {
 //		return null;
 		
 		User user = null;
+//		String sql = "select * from user where username="+username+" and password="+password+";";
 		String sql = "select id, username, password, age, birthday, sex, cardNo from user where username = ? and password = ?";
 		try {
 			PreparedStatement psmt = conn.prepareStatement(sql);
@@ -76,21 +77,16 @@ public class UserDao {
 				String pw = rs.getString("password");
 				int age = rs.getInt("age");
 				Date birthday = rs.getDate("birthday");
-				int sex = rs.getInt("sex");
-				String cardNo = rs.getString("cardNo");
+				String sex = rs.getString("sex");
+				int cardNo = rs.getInt("cardNo");
 				user = new User(un, pw, age, birthday, sex, cardNo);
 				user.setId(id);
+
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 		return user;
-	}
-	
-	public static void main(String[] args) {
-		UserDao dao = new UserDao();
-		User user = dao.queryByUsernameAndPassword("user", "user");
-		System.out.println(user);
 	}
 	
 }

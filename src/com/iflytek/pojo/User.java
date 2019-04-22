@@ -8,14 +8,14 @@ public class User {
 	private String password;
 	private int age;
 	private Date birthday;
-	private int sex;//(0 女生 1 男生)
-	private String cardNo;
+	private String sex;
+	private int cardNo;
 	
 	public User() {
 		super();
 	}
 	
-	public User(String username, String password, int age, Date birthday, int sex, String cardNo) {
+	public User(String username, String password, int age, Date birthday, String sex, int cardNo) {
 		super();
 		this.username = username;
 		this.password = password;
@@ -49,16 +49,16 @@ public class User {
 	public void setBirthday(Date birthday) {
 		this.birthday = birthday;
 	}
-	public int getSex() {
+	public String getSex() {
 		return sex;
 	}
-	public void setSex(int sex) {
+	public void setSex(String sex) {
 		this.sex = sex;
 	}
-	public String getCardNo() {
+	public int getCardNo() {
 		return cardNo;
 	}
-	public void setCardNo(String cardNo) {
+	public void setCardNo(int cardNo) {
 		this.cardNo = cardNo;
 	}
 

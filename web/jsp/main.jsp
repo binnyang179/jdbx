@@ -7,7 +7,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title></title>
-		<link href="/jdbx_war_exploded/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
 		<style>
 			body {
 				background-color:rgb(54,65,80);
@@ -52,7 +52,7 @@
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <a class="navbar-brand" style="padding-top:5px;padding-bottom: 5px;" href="#">
-		        <img alt="Brand" src="/jdbx_war_exploded/img/ifly-logo2.png">
+		        <img alt="Brand" src="/img/ifly-logo2.png">
 		      </a>
 		      <a class="navbar-brand" href="#">
 		       	 科大讯飞设备管理系统
@@ -65,7 +65,7 @@
 			      	<c:when test="${user == 'admin' }">
 				        <li class="dropdown">
 				          <a href="#" class="dropdown-toggle menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-				          		<img alt="" src="/jdbx_war_exploded/img/avatar2.jpg" width="20">
+				          		<img alt="" src="/img/avatar2.jpg" width="20">
 				          		管理员 <span class="caret"></span>
 				          </a>
 				          <ul class="dropdown-menu">
@@ -81,7 +81,7 @@
 			        	<li><a href="#" class="menu">欢迎您,${user}</a></li>
 			        </c:otherwise>
 		        </c:choose>
-		        <li><a href="#" class="menu"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+				  <li><a href="/QuitServlet" class="menu"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
 		      </ul>
 		    </div><!-- /.navbar-collapse -->
 		  </div>
@@ -202,8 +202,8 @@
 		</div>
 	</body>
 </html>
-<script src="/jdbx_war_exploded/js/jquery.js"></script>
-<script src="/jdbx_war_exploded/js/bootstrap.min.js"></script>
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 <script>
 	$(".nav-stacked>li").click(function(event){
 		$(".nav-stacked li").removeClass("active");

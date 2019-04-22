@@ -15,22 +15,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <title>Holden | 仪表盘</title>
-    <link rel="stylesheet" href="/jdbx_war_exploded/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/jdbx_war_exploded/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/jdbx_war_exploded/css/pace.min.css">
-    <link rel="stylesheet" href="/jdbx_war_exploded/css/AdminLTE.min.css">
-    <link rel="stylesheet" href="/jdbx_war_exploded/css/_all-skins.min.css">
-    <link rel="stylesheet" href="/jdbx_war_exploded/css/style.min.css">
-    <link rel="stylesheet" href="/jdbx_war_exploded/css/jquery.toast.min.css">
-    <link rel="stylesheet" href="/jdbx_war_exploded/css/pretty-checkbox.min.css">
-    <link rel="stylesheet" href="/jdbx_war_exploded/css/animate.min.css">
-    <link rel="stylesheet" href="/jdbx_war_exploded/css/css">
-    <link rel="stylesheet" href="/jdbx_war_exploded/css/css" >
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/pace.min.css">
+    <link rel="stylesheet" href="/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="/css/_all-skins.min.css">
+    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" href="/css/jquery.toast.min.css">
+    <link rel="stylesheet" href="/css/pretty-checkbox.min.css">
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <link rel="stylesheet" href="/css/css">
+    <link rel="stylesheet" href="/css/css" >
     <!--[if lt IE 9]>
     <script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="/jdbx_war_exploded/css/layer.css" id="layuicss-layer">
+    <link rel="stylesheet" href="/css/layer.css" id="layuicss-layer">
     <style type="text/css">
 
         .MathJax_Menu_Button .MathJax_Hover_Arrow span {
@@ -189,12 +189,12 @@
                     </li>
                     <li class="dropdown user user-menu">
                         <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="/jdbx_war_exploded/img/default.png" class="user-image" alt="User Image">
+                            <img src="/img/default.png" class="user-image" alt="User Image">
                             <span class="hidden-xs">crab</span>
                         </a>
                         <ul class="dropdown-menu">
                             <li class="user-header">
-                                <img src="/jdbx_war_exploded/img/default.png" class="img-circle" alt="User Image">
+                                <img src="/img/default.png" class="img-circle" alt="User Image">
                                 <p>crab</p>
                             </li>
                             <li class="user-footer">
@@ -215,7 +215,7 @@
         <section class="sidebar">
             <div class="user-panel">
                 <div class="pull-left image">
-                    <img src="/jdbx_war_exploded/img/default.png" class="img-circle" alt="User Image">
+                    <img src="/img/default.png" class="img-circle" alt="User Image">
                 </div>
                 <div class="pull-left info">
                     <p>crab</p><a data-pjax="true" href="http://localhost:8090/admin/profile" data-pjax-state="load"><i
@@ -666,24 +666,24 @@
         Thanks for using <strong><a data-pjax="true" href="http://localhost:8090/admin/halo" data-pjax-state="">Halo</a>.</strong>
     </footer>
 </div>
-/jdbx_war_exploded/css
-<script src="/jdbx_war_exploded/js/pjax.min.js"></script>
-<script src="/jdbx_war_exploded/js/jquery.min.js"></script>
-<script src="/jdbx_war_exploded/js/bootstrap.min.js"></script>
-<script src="/jdbx_war_exploded/js/pace.min.js"></script>
-<script src="/jdbx_war_exploded/js/adminlte.min.js"></script>
-<script src="/jdbx_war_exploded/js/jquery.toast.min.js"></script>
-<script src="/jdbx_war_exploded/js/layer.js"></script>
-<script src="/jdbx_war_exploded/js/fileinput.min.js"></script>
-<script src="/jdbx_war_exploded/js/zh.min.js"></script>
-<script src="/jdbx_war_exploded/js/easymde.min.js"></script>
-<script src="/jdbx_war_exploded/js/codemirror-4.inline-attachment.min.js"></script>
-<script src="/jdbx_war_exploded/js/bootstrap-datetimepicker.min.js"></script>
-<script src="/jdbx_war_exploded/js/bootstrap-datetimepicker.zh-CN.js"></script>
-<script src="/jdbx_war_exploded/js/jquery.tag-editor.min.js"></script>
-<script src="/jdbx_war_exploded/js/MathJax.js"></script>
-<script src="/jdbx_war_exploded/js/OwO.min.js"></script>
-<script src="/jdbx_war_exploded/js/halo.min.js"></script>
+/css
+<script src="/js/pjax.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/pace.min.js"></script>
+<script src="/js/adminlte.min.js"></script>
+<script src="/js/jquery.toast.min.js"></script>
+<script src="/js/layer.js"></script>
+<script src="/js/fileinput.min.js"></script>
+<script src="/js/zh.min.js"></script>
+<script src="/js/easymde.min.js"></script>
+<script src="/js/codemirror-4.inline-attachment.min.js"></script>
+<script src="/js/bootstrap-datetimepicker.min.js"></script>
+<script src="/js/bootstrap-datetimepicker.zh-CN.js"></script>
+<script src="/js/jquery.tag-editor.min.js"></script>
+<script src="/js/MathJax.js"></script>
+<script src="/js/OwO.min.js"></script>
+<script src="/js/halo.min.js"></script>
 <script>
     var halo = new $.halo();
     $(document).ajaxStart(function () {
