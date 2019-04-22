@@ -41,6 +41,7 @@ html+css+js+jquery+ajax+bootstrap+servlet+jsp
  -->
 <body>
 Hello  科大讯飞教育设备报修平台
-<p>This is a login click here<a href="jsp/login.jsp"></a></p>
+<p>This is a login click <a href="/jdbx_war_exploded/jsp/login.jsp">here</a></p>
+<p>This is a admin page click <a href="/jdbx_war_exploded/jsp/admin.jsp">here</a> </p>
 </body>
 </html>

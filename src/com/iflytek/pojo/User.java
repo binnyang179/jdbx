@@ -3,6 +3,7 @@ package com.iflytek.pojo;
 import java.util.Date;
 
 public class User {
+	private Integer id;
 	private String username;
 	private String password;
 	private int age;
@@ -65,5 +66,13 @@ public class User {
 	public String toString() {
 		return "User [username=" + username + ", password=" + password + ", age=" + age + ", birthday=" + birthday
 				+ ", sex=" + sex + ", cardNo=" + cardNo + "]";
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
 	}
 }
